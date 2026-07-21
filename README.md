@@ -76,8 +76,6 @@ The flag extracted from the image is:
 picoCTF{...}
 ```
 
-*(Replace with the actual flag found in the image)*
-
 ---
 
 ## Exploitation Chain
@@ -117,19 +115,6 @@ The lesson is that binary data can be hidden in plain sight, and simple transfor
 - CyberChef offers a convenient GUI for data conversion and can handle many encoding schemes.
 - Raw binary data can encode images, executables, or other file formats.
 - When dealing with long binary strings, converting them to bytes and interpreting them as an image is a valid approach.
-
----
-
-## Repository Structure
-
-The images are stored in the same directory as this `README.md`:
-
-```text
-.
-├── README.md
-├── fileContent.png
-└── cyberchef_renderimage_flag.png
-```
 
 ---
 
