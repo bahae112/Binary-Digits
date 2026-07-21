@@ -55,10 +55,11 @@ The steps are:
 3. **Add the "Render Image" operation** – This interprets the raw bytes as an image (the binary data likely represents pixel data).
 4. **View the output** – The rendered image should display the flag.
 
-Below is a screenshot of the CyberChef recipe used:
 
+THis shows the file type and content:
 ![CyberChef configuration](fileContent.png)
 
+Below is a screenshot of the CyberChef recipe used:
 After applying the recipe, the following image is produced:
 
 ![Rendered image containing the flag](cyberchef_renderimage_flag.png)
